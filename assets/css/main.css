@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#sign-up-form {
+  padding: 0 30px 40px;
+}
+#sign-up-form header {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 45px;
+}
+#sign-up-form article {
+  line-height: 1.5em;
+  margin-top: 25px;
+}
+#sign-up-form article .list-unstyled {
+  margin-top: 30px;
+}
+#sign-up-form article .list-unstyled .list-group-item {
+  background: transparent url(".././images/icon-list.svg") no-repeat left 3px;
+  border: none;
+  padding: 0 0 0 38px;
+}
+#sign-up-form article .list-unstyled .list-group-item:not(:first-child) {
+  margin-top: 20px;
+}
+#sign-up-form article form {
+  margin-top: 40px;
+}
+#sign-up-form article form .form-label {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  margin: 0 0 5px;
+}
+#sign-up-form article form .form-control {
+  padding: 20px 25px;
+}
+#sign-up-form article form .btn-primary {
+  background-color: hsl(234, 29%, 20%);
+  border-color: hsl(234, 29%, 20%);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 25px;
+  padding: 20px 0;
+}
+
+#success-msg {
+  display: none;
+  padding: 0 18px;
+}/*# sourceMappingURL=main.css.map */

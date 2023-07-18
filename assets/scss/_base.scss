@@ -1,0 +1,58 @@
+body {
+    @include roboto-font;
+}
+
+#sign-up-form {
+    padding: 0 30px 40px;
+
+    header {
+        @include roboto-font($font-size-xl, $font-weight-bold);
+        margin-top: 45px;
+    }
+
+    article {
+        line-height: 1.5em;
+        margin-top: 25px;
+
+        .list-unstyled {
+            margin-top: 30px;
+
+            .list-group-item {
+                background: transparent url('.././images/icon-list.svg') no-repeat left 3px;
+                border: none;
+                padding: 0 0 0 38px;
+
+                &:not(:first-child) {
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        form {
+            margin-top: 40px;
+
+            .form-label {
+                @include roboto-font($font-size-xs, $font-weight-bold);
+                margin: 0 0 5px;
+            }
+
+            .form-control {
+                padding: 20px 25px;
+            }
+
+            .btn-primary {
+                background-color: $color-dark-slate-grey;
+                border-color: $color-dark-slate-grey;
+                @include roboto-font($font-size-md, $font-weight-bold);
+                margin-top: 25px;
+                padding: 20px 0;
+            }
+        }
+    }
+}
+
+
+#success-msg {
+    display: none;
+    padding: 0 18px;
+}
