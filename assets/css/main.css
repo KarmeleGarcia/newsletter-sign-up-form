@@ -1,21 +1,19 @@
-@font-face {
-  font-family: "Roboto";
-  src: url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-}
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
 
-#sign-up-form {
-  padding: 0 30px 40px;
+.banner img {
+  object-fit: cover;
+  max-height: 285px;
 }
+
 #sign-up-form header {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 700;
-  margin-top: 45px;
+  margin-top: 40px;
 }
 #sign-up-form article {
   line-height: 1.5em;
