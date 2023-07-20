@@ -9,14 +9,25 @@ body {
   max-height: 285px;
 }
 
-#sign-up-form {
-  padding: 45px 25px;
-}
-#sign-up-form header {
+header {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 1em;
+}
+
+.btn-primary {
+  background-color: hsl(234, 29%, 20%);
+  border-color: hsl(234, 29%, 20%);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 25px;
+  padding: 20px 0;
+}
+
+#sign-up-form {
+  padding: 45px 25px;
 }
 #sign-up-form article {
   line-height: 1.5em;
@@ -45,17 +56,24 @@ body {
 #sign-up-form article form .form-control {
   padding: 20px 25px;
 }
-#sign-up-form article form .btn-primary {
-  background-color: hsl(234, 29%, 20%);
-  border-color: hsl(234, 29%, 20%);
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  margin-top: 25px;
-  padding: 20px 0;
-}
 
 #success-msg {
-  display: none;
-  padding: 0 18px;
+  padding: 45px 25px;
+}
+#success-msg header {
+  margin-top: 45px;
+}
+#success-msg img {
+  width: 60px;
+}
+#success-msg p {
+  margin-top: 30px;
+}
+#success-msg .bottom-full-width {
+  position: absolute;
+  bottom: 45px;
+  margin: 0 auto;
+  left: 0;
+  width: 100%;
+  padding: 0 25px;
 }/*# sourceMappingURL=main.css.map */
