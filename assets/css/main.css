@@ -9,11 +9,14 @@ body {
   max-height: 285px;
 }
 
+#sign-up-form {
+  padding: 45px 25px;
+}
 #sign-up-form header {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 700;
-  margin-top: 40px;
+  line-height: 1em;
 }
 #sign-up-form article {
   line-height: 1.5em;

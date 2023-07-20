@@ -22,22 +22,15 @@
 
 <body>
   <!-- Container for sm and below resolutions -->
-  <div class="container-fluid d-md-none p-0">
+  <div class="container-fluid d-md-none p-0 banner">
     <div class="row g-0">
-      <img src="./assets/images/illustration-sign-up-mobile.svg" style="
-    object-fit: cover;
-    max-height: 285px;
-" class="img-fluid">
+      <img src="./assets/images/illustration-sign-up-mobile.svg" class="img-fluid rounded-bottom-5">
     </div>
   </div>
 
   <!-- Container for md and above resolutions -->
   <div class="container p-0">
     <div class="row g-0">
-      <section class="col-md d-none d-md-block">
-        <img src="./assets/images/illustration-sign-up-mobile.svg" width="100%">
-      </section>
-
       <section id="sign-up-form" class="col-sm-12 col-md">
         <!-- Sign-up form start -->
         <header>Stay updated!</header>
@@ -61,6 +54,10 @@
           </form>
         </article>
         <!-- Sign-up form end -->
+      </section>
+
+      <section class="col-md d-none d-md-block">
+        <img src="./assets/images/illustration-sign-up-mobile.svg" width="100%">
       </section>
 
       <section id="success-msg" class="row">

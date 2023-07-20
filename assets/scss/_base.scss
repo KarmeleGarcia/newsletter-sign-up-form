@@ -8,10 +8,11 @@ body {
 }
 
 #sign-up-form {
-
+    padding: 45px 25px;
+    
     header {
         @include roboto-font($font-size-xl, $font-weight-bold);
-        margin-top: 40px;
+        line-height: 1em;
     }
 
     article {
